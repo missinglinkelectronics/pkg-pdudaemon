@@ -19,6 +19,10 @@
 #  MA 02110-1301, USA.
 
 from pdudaemon.drivers.acme import ACME  # pylint: disable=W0611
+from pdudaemon.drivers.anelnetpwrctrl import AnelNETPwrCtrlHOME  # pylint: disable=W0611
+from pdudaemon.drivers.anelnetpwrctrl import AnelNETPwrCtrlADV  # pylint: disable=W0611
+from pdudaemon.drivers.anelnetpwrctrl import AnelNETPwrCtrlIO  # pylint: disable=W0611
+from pdudaemon.drivers.anelnetpwrctrl import AnelNETPwrCtrlPRO  # pylint: disable=W0611
 from pdudaemon.drivers.apc7932 import APC7932  # pylint: disable=W0611
 from pdudaemon.drivers.apc7952 import APC7952  # pylint: disable=W0611
 from pdudaemon.drivers.apc9218 import APC9218  # pylint: disable=W0611
@@ -39,5 +43,9 @@ from pdudaemon.drivers.devantech import DevantechETH8020
 from pdudaemon.drivers.devantechusb import DevantechUSB2
 from pdudaemon.drivers.devantechusb import DevantechUSB8
 from pdudaemon.drivers.synaccess import SynNetBooter
+from pdudaemon.drivers.tasmota import SonoffS20Tasmota  # pylint: disable=W0611
 from pdudaemon.drivers.egpms import EgPMS
 from pdudaemon.drivers.ykush import YkushXS
+from pdudaemon.drivers.ykush import Ykush
+from pdudaemon.drivers.snmp import SNMP
+from pdudaemon.drivers.energenieusb import EnerGenieUSB
