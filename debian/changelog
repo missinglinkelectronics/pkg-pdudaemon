@@ -1,3 +1,46 @@
+pdudaemon (0.0.8-mle.1-1) UNRELEASED; urgency=medium
+
+  [ Andy Doan ]
+  * Dockerfile.dockerhub: Add telnet package
+
+  [ Matt Hart ]
+  * Add an SNMP driver
+
+  [ Daniel Sangorrin ]
+  * ip9258: snmp required for ip9258 for now
+  * proxy: add build argument for web proxies
+  * Dockerfile: upgrade to buster
+  * Readme: clarify http request usage
+  * docker: add instructions to prepare a pdudaemon docker image
+  * travis: use buster here as well
+
+  [ StefanRB ]
+  * added ykush 3port device
+  * ykush device: updated according to review findings
+
+  [ Matt Hart ]
+  * In some circumstances, the pdu task could take longer than the loop takes to execute. As the pdurunner task is responsible for deleting the database row, the next database request would provide the same task.
+
+  [ Martyn Welch ]
+  * WIP: Add driver for EnerGenie USB PDU
+  * Add script for finding EnerGenie device IDs
+
+  [ Matt Hart ]
+  * HTTP: Refuse requests for a pdu not in the config file
+  * Add how to use Official Docker to Readme
+  * Add a --drive feature
+  * Support reboots in --drive mode
+  * Add testing for --drive mode
+  * Update README.md
+  * Add aliases support
+
+  [ Stefan Wiehler ]
+  * Add Anel NET-PwrCtrl driver
+  * Add Tasmota driver
+  * Add build dependencies
+
+ -- Stefan Wiehler <stefan.wiehler@missinglinkelectronics.com>  Tue, 26 Nov 2019 17:07:24 +0100
+
 pdudaemon (0.0.7-2) unstable; urgency=medium
 
   * Add conflict on lavapdu-client which contains the same binary
