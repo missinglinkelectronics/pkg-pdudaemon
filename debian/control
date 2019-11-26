@@ -17,6 +17,9 @@ Build-Depends: debhelper (>= 10.0.0),
                python3-serial,
                python3-setuptools,
                python3-systemd,
+               python3-pysnmp4,
+               python3-pyasn1,
+               python3-usb,
                xsltproc
 Standards-Version: 4.2.0
 Homepage: http://github.com/pdudaemon
