@@ -1,3 +1,10 @@
+pdudaemon (0.0.8-mle.2-1) UNRELEASED; urgency=medium
+
+  [ Stefan Wiehler ]
+  * Synchronize dependencies
+
+ -- Stefan Wiehler <stefan.wiehler@missinglinkelectronics.com>  Wed, 27 Nov 2019 18:37:32 +0100
+
 pdudaemon (0.0.8-mle.1-1) UNRELEASED; urgency=medium
 
   [ Andy Doan ]
